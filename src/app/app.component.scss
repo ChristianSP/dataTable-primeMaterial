@@ -1,0 +1,68 @@
+
+// Style Class	Applies
+// ui-widget	All PrimeNG components
+// ui-widget-header	Header section of a component
+// ui-widget-content	Content section of a component
+// ui-state-default	Default state of a clickable element
+// ui-state-hover	Hover state of a clickable element like mouse over
+// ui-state-active	Active state of a clickable element like mouse press
+// ui-state-highlight	Highlighed elements
+// ui-state-disabled	Disabled elements
+// fa	Icon elements based on font awesome
+
+
+
+.ui-datatable-thead tr{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    align-items: center;
+    height: 48px;
+    padding: 0 24px;
+    border:0;
+    border-bottom-color: rgba(0,0,0,.12);
+
+    th{
+        flex:1;
+        border:0 !important;
+        background: lighten(#8e8e8e,38%) !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        text-align: left;
+        
+    }
+}
+p-paginator{
+    *{
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-top: 0 !important;
+    }
+    .ui-widget{
+        background: white !important;
+        border: 0 !important;
+        text-align: right !important;
+    }
+    .ui-state-active{
+        background: #ec0000 !important;
+        border-color: #ec0000 !important;
+    }
+
+    .ui-paginator-first,.ui-paginator-last,.ui-paginator-pages{
+        display: none !important;
+
+    }
+    
+}
+.ui-widget-content{
+    border-left: 0 !important;
+    border-right: 0 !important;
+
+    td{
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+}
+
+.ui-widget-content:nth-child(even){
+    background: lighten(#8e8e8e,38%) !important;
+}
